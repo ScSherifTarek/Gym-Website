@@ -76,7 +76,7 @@
                 </div>
                 
                 <div class="content">
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
                         <div class="parent">
                             <i class="fa fa-user-circle-o text-nice-light-blue"></i>
                             <br>
@@ -85,7 +85,7 @@
                             <p>Nullam vulputate lorem ut leo. Sed volutpat. Etiam non pede. Nullam et mauris.</p>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
                         <div class="parent">
                             <i class="fa fa-battery-full text-nice-blue"></i>
                             <br>
@@ -94,7 +94,7 @@
                             <p>Nullam vulputate lorem ut leo. Sed volutpat. Etiam non pede. Nullam et mauris.</p>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
                         <div class="parent">
                             <i class="fa fa-wrench text-nice-black"></i>
                             <br>
@@ -103,7 +103,7 @@
                             <p>Nullam vulputate lorem ut leo. Sed volutpat. Etiam non pede. Nullam et mauris.</p>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
                         <div class="parent">
                             <i class="fa fa-fire text-nice-red"></i>
                             <br>
@@ -245,7 +245,7 @@
             
             <div class="content">
                 <div class="container">
-                    <div class="t-d col-lg-3 col-md-3 col-sm-6">
+                    <div class="t-d col-lg-3 col-md-3 col-sm-12">
                         <div class="parent">
                             <img class="img-responsive" src="images/team/team-5.jpg" alt="" >
                             <h3>Sherif Tarek</h3>
@@ -254,7 +254,7 @@
                             <a href="#"><i class="fa fa-twitter"></i></a>
                         </div>
                     </div>
-                    <div class="t-d col-lg-3 col-md-3 col-sm-6">
+                    <div class="t-d col-lg-3 col-md-3 col-sm-12">
                         <div class="parent">
                             <img class="img-responsive" src="images/team/team-6.jpg" alt="" >
                             <h3>Sherif Tarek</h3>
@@ -263,7 +263,7 @@
                             <a href="#"><i class="fa fa-twitter"></i></a>
                         </div>
                     </div>
-                    <div class="t-d col-lg-3 col-md-3 col-sm-6">
+                    <div class="t-d col-lg-3 col-md-3 col-sm-12">
                         <div class="parent">
                             <img class="img-responsive" src="images/team/team-7.jpg" alt="" >
                             <h3>Sherif Tarek</h3>
@@ -272,7 +272,7 @@
                             <a href="#"><i class="fa fa-twitter"></i></a>
                         </div>
                     </div>
-                    <div class="t-d col-lg-3 col-md-3 col-sm-6">
+                    <div class="t-d col-lg-3 col-md-3 col-sm-12">
                         <div class="parent">
                             <img class="img-responsive" src="images/team/team-8.jpg" alt="" >
                             <h3>Sherif Tarek</h3>
