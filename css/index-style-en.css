@@ -1,3 +1,8 @@
+
+body
+{
+    font-family: changa;
+}
 a
 {
     color: inherit;
@@ -8,10 +13,6 @@ a:hover
 {
     color: inherit;
     cursor: pointer;
-}
-body
-{
-    font-family: changa;
 }
 .img-responsive
 {
@@ -61,7 +62,7 @@ h3{text-transform: capitalize;}
 .header
 {
     width:100%;
-    background-color: #fff;
+    background-color: #333;
     background-image: url(../images/en/home-back.jpg);
     background-size:contain;
     background-position: center;
@@ -142,7 +143,7 @@ h3{text-transform: capitalize;}
 }
 .header .content .not-image a.get-app:hover
 {
-    background-color:rgba(0, 128, 115, 1)/*rgba(0, 128, 115, 1)*/;
+    background-color:rgba(0, 128, 115, 1);
     border-color:transparent;
 }
 .header .content .not-image a.get-app:focus,
@@ -311,7 +312,7 @@ h3{text-transform: capitalize;}
 {
     position: relative;
     width:100%;
-    background-color:#009688;/*#f5f5f5 rgba(250, 235, 204, 1)   rgba(18, 43, 64, 1)*/;
+    background-color:#009688;
     overflow: hidden;
 }
 
@@ -348,7 +349,7 @@ h3{text-transform: capitalize;}
     margin-top: 1.46vw;
 }
 
-/** Start tesponsive **/
+/** Start responsive **/
 @media(max-width:992px)
 {
     .cross-section .container .not-image
@@ -500,9 +501,9 @@ h3{text-transform: capitalize;}
         font-size: 3.5vw;
     }
 }
+
+
 /* Start Clients Section Style */
-
-
 /* Start Client Style */
 .client
 {
@@ -541,7 +542,7 @@ h3{text-transform: capitalize;}
 .client ol li.active
 {
 	background-color: #009688;
-    border-color: rgba(0, 82, 73, 1);;
+    border-color: rgba(0, 82, 73, 1);
 }
 .client p
 {
@@ -724,13 +725,8 @@ h3{text-transform: capitalize;}
     }
     .team .content .parent i
     {
-
-
         font-size: 3vw;
         margin-right: 1vw;
-
-
-
     }
 }
 
@@ -835,20 +831,6 @@ h3{text-transform: capitalize;}
 	{
 		padding:0 0 0 0.73vw;
 	}
-	.footer .ways li
-	{
-/*		font-size:16px;*/
-	}
-	.footer .ways li span.what
-	{
-/*		font-size:18px;*/
-	}
-	.footer .ways li span.mail
-	{
-/*		font-size:13.5px;*/
-		
-	}
-	
 }
 @media(max-width:992px)
 {
@@ -889,7 +871,6 @@ h3{text-transform: capitalize;}
 
 .new-contact
 {
-    
     position: fixed;
     top:30%;
     right:0px;
@@ -965,7 +946,7 @@ h3{text-transform: capitalize;}
         font-size: 8vw;
         text-align: center;
         padding:4vw;
-        width:24.48vw;
+        width:24.9vw;
         color:#09c;
         display: block;
         float: left;
