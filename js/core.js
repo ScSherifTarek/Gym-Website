@@ -1,5 +1,5 @@
 $(function() {
-    $("#core-section").height($("#core-section").height() - 80);
+    $("#core-section").height($("#core-section").height()-50);
   $("#tabs").tabs({
     show: { effect: "blind", direction: "right", duration: 300 }
   });
