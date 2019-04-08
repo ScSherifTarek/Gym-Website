@@ -99,7 +99,7 @@ h3{text-transform: capitalize;}
     
     color:#fff;
 }
-.header .content .not-image h3
+.header .content .not-image h1
 {
     color:#fff;
     font-size: 3.66vw;
@@ -325,7 +325,7 @@ h3{text-transform: capitalize;}
 }
 .cross-section .container .not-image .parent
 {
-    margin-bottom:1.46vw;
+/*    margin-bottom:1.46vw;*/
 }
 
 .cross-section .container .not-image h2
@@ -397,7 +397,7 @@ h3{text-transform: capitalize;}
 /*---   -- Start Cross style   ----*/
 .cross-section .container .not-image::after
 {
-    content:""; 
+/*    content:""; */
     background-color: #009688/*009688*/;
     display: block;
     width:800px;
@@ -410,7 +410,7 @@ h3{text-transform: capitalize;}
 }
 .cross-section .container .not-image::before
 {
-    content:""; 
+/*    content:""; */
     background-color: #009688;
     display: block;
     width:370px;
