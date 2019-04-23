@@ -3,13 +3,14 @@
     <head>
         <title>مدير الجيم</title>
         <meta charset="utf-8">
-        <link rel="icon" href="../../images/bodybuilder-logo.png">
+        <link rel="icon" href="../images/bodybuilder-logo.png" sizes="48x48">
         <link rel="stylesheet" href="../css/normalize.css">
         <link rel="stylesheet" href="../css/bootstrap.min.css">
         <link rel="stylesheet" href="../css/bootstrap-rtl.css">
         <link rel="stylesheet" href="../css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/css?family=Cairo|Changa|Jomhuria|Lemonada" rel="stylesheet">  
         <link rel="stylesheet" href="../css/index-style-en.css">
+        <link rel="stylesheet" href="../css/core-style.css">
         <link rel="stylesheet" href="../css/index-style-ar.css">
     </head>
     <body>
@@ -124,66 +125,83 @@
 		
 		<!-- End Discription -->
         <!-- Start Cross Section -->
-        
-        <div class="cross-section">
-            <div class="container">
-                <div class="col-lg-6 col-md-7 col-sm-12">
-                    <div class="not-image">
-                        <h2>المميزات الاساسية</h2>
-                        <div class="parent">
-                            <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
-                               <i class="fa fa-microchip"></i>
-                            </div>
-                            <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
-                                <h3>
-                                    تحكم بالنظام كاملا
-                                </h3>
-                                <p>
+        <div id="core-section" class="cross-section">
+            <div class="heading">
+                <div class="container">
+                    <h2>
+                        المميزات الاساسية
+                    </h2>
+                </div>
+            </div>
+            <div id="tabs">
+                <div class="container">
+                    <ul id="accordion">
+                        <li>
+                            <a class="active" targetTab="tabs-1">   
+                                <div class="tag">
+                                    <div class="icon">
+                                        <i class="fa fa-microchip"></i>
+                                    </div>
+                                    <h3 class="title">
+                                        تحكم بالنظام كاملا
+                                    </h3>
+                                </div>
+                            </a>
+                            <div class="addon fadein">
+                                <span>
                                     لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة
-                                </p>
+                                </span>
                             </div>
-                            <div class="clearfix"></div>
-                        </div>
-                        <div class="parent">
-                            <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
-                               <i class="fa fa-linode"></i>
-                            </div>
-                            <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
-                                <h3>
-                                    لا تحتاجنا بعد الان
-                                </h3>
-                                <p>
+
+                        </li>
+                        <li>
+                            <a class="" targetTab="tabs-2">   
+                                <div class="tag">
+                                    <div class="icon">
+                                        <i class="fa fa-microchip"></i>
+                                    </div>
+                                    <h3 class="title">
+                                        لا تحتاجنا بعد الان
+                                    </h3>
+                                </div>
+                            </a>
+                            <div class="addon fadein">
+                                <span>
                                     لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة
-                                </p>
+                                </span>
                             </div>
-                            <div class="clearfix"></div>
-                        </div>
-                        <div class="parent">
-                            <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
-                               <i class="fa fa-podcast"></i>
-                            </div>
-                            <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
-                                <h3>
-                                    اختر الافضل
-                                </h3>
-                                <p>
+                        </li>
+                        <li>
+                            <a class="" targetTab="tabs-3">   
+                                <div class="tag">
+                                    <div class="icon">
+                                        <i class="fa fa-microchip"></i>
+                                    </div>
+                                    <h3 class="title">
+                                        اختر الافضل
+                                    </h3>
+                                </div>
+                            </a>
+                            <div class="addon fadein">
+                                <span>
                                     لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة
-                                </p>
+                                </span>
                             </div>
-                            <div class="clearfix"></div>
+                        </li>
+
+                    </ul>
+                    <div class="browser">
+                        <div class="top-bar">
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
                         </div>
+                        <div class="tab" id="tabs-1"></div>
+                        <div class="tab" id="tabs-2"></div>
+                        <div class="tab" id="tabs-3"></div>
                     </div>
                 </div>
-                <div class="clearfix"></div>
-                
             </div>
-            <div class="clearfix"></div>
-
-            <div class="col-lg-6 col-md-5 col-sm-12 image"></div>
-            <!--<div class="cross-word">
-                Just for our customers
-            </div>-->
-
         </div>
         <a href="#" class="btn btn-lg btn-primary get-app big-btn">احصل على التطبيق الان</a>
 
@@ -434,5 +452,6 @@
         <script src="../js/jquery-3.2.0.min.js"></script>
         <script src="../js/bootstrap.min.js"></script>
         <script src="../js/index.js"></script>
+        <script src="../js/core.js"></script>
     </body>
 </html>

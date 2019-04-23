@@ -257,3 +257,34 @@
 }
 /* End Language Style */
 
+
+#tabs ul 
+{
+    float: right;
+}
+#tabs .browser
+{
+    right: auto;
+    left: 0;
+    border-width: 2px 2px 2px 0;
+    border-color: #eee #eee #eee transparent;
+    border-radius: 0 10px 10px 0 ;
+}
+#tabs .dot:nth-child(1)
+{
+    margin-left: 0;
+    margin-right: 7px;
+}
+#tabs .addon
+{
+    margin-right: 70px;
+    margin-left: 0;
+}
+@media(max-width:1000px)
+{
+    #tabs .addon
+    {
+        padding-right: 2.5vw;
+        padding-left:0;
+    }   
+}
