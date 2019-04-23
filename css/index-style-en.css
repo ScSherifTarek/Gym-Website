@@ -8,11 +8,16 @@ a
     color: inherit;
     text-decoration: none;
     cursor: pointer;
+    transition-delay: 0s;
+    transition-duration: 0.2s;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.42,0,1,1);
 }
 a:hover
 {
     color: inherit;
     cursor: pointer;
+    
 }
 .img-responsive
 {
@@ -51,10 +56,12 @@ h3{text-transform: capitalize;}
 .full-height{height:100%;}
 *
 {
+/*
     transition-delay: 0s;
     transition-duration: 0.2s;
     transition-property: all;
     transition-timing-function: cubic-bezier(0.42,0,1,1);
+*/
 }
 
 
@@ -105,8 +112,6 @@ h3{text-transform: capitalize;}
     font-size: 3.66vw;
     font-weight: 700;
     text-shadow:0px 1px 1px rgba(0,0,0,0.5);
-    
-    
 }
 .header .content .not-image ul
 {
@@ -140,6 +145,10 @@ h3{text-transform: capitalize;}
 {
     background-color:#009688;
     border-color: transparent;
+    transition-delay: 0s;
+    transition-duration: 0.2s;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.42,0,1,1);
 }
 .header .content .not-image a.get-app:hover
 {
@@ -170,7 +179,7 @@ h3{text-transform: capitalize;}
         
         padding-bottom: 5vw;
     }
-    .header .content .not-image h3
+    .header .content .not-image h1
     {
         color:#fff;
         font-size: 10vw;
@@ -479,6 +488,10 @@ h3{text-transform: capitalize;}
     margin: -1px 0 0 0;
     position: relative;
     z-index: 99999;
+    transition-delay: 0s;
+    transition-duration: 0.2s;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.42,0,1,1);
     
 }
 .big-btn:hover
@@ -675,6 +688,10 @@ h3{text-transform: capitalize;}
 .team .content .parent a
 {
     color:#111;
+    transition-delay: 0s;
+    transition-duration: 0.2s;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.42,0,1,1);
 }
 .team .content .parent a:hover
 {
@@ -889,6 +906,10 @@ h3{text-transform: capitalize;}
     padding:0.92vw;
     color:#09c;
     display: block;
+    transition-delay: 0s;
+    transition-duration: 0.2s;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.42,0,1,1);
 }
 
 
@@ -990,6 +1011,10 @@ h3{text-transform: capitalize;}
     text-align: center;
     line-height: 35px;
     text-decoration: none;
+    transition-delay: 0s;
+    transition-duration: 0.2s;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.42,0,1,1);
 }
 .lang a:hover
 {
