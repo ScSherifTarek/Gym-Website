@@ -37,6 +37,13 @@ a:hover
     margin:auto;
 	margin-bottom:0.73vw;
 }
+@media(max-width: 1000px)
+{
+    .clrfix-sm {
+        clear:both;
+    }
+}
+
 @media(max-width:992px)
 {
     .line
@@ -1070,6 +1077,8 @@ h3{text-transform: capitalize;}
 .carousel-indicators {
     bottom: 1.47vw;
 }
+
+
 
 
 
