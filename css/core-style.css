@@ -208,17 +208,22 @@
 }
 
 #tabs .tab:nth-of-type(5) {
-    background-image: url(../images/features/3.jpg);
+    background-image: url(../images/features/4.jpg);
     background-size: 100% 100%;
 }
 
 #tabs .tab:nth-of-type(6) {
-    background-image: url(../images/features/3.jpg);
+    background-image: url(../images/features/5.jpg);
     background-size: 100% 100%;
 }
 
 #tabs .tab:nth-of-type(7) {
-    background-image: url(../images/features/3.jpg);
+    background-image: url(../images/features/6.jpg);
+    background-size: 100% 100%;
+}
+
+#tabs .tab:nth-of-type(8) {
+    background-image: url(../images/features/7.jpg);
     background-size: 100% 100%;
 }
 
