@@ -2,7 +2,8 @@
 
 #core-section
 {
-    padding: 40px 0 80px;    
+    margin-top: 30px;
+    padding: 60px 0 80px;    
 }
 #core-section .heading h2
 {
@@ -191,18 +192,33 @@
     height: 100%;
 }
 
-#tabs #tabs-1 {
-    background-image: url(../images/clients/customer-1.jpg);
+#tabs .tab:nth-of-type(2) {
+    background-image: url(../images/features/1.jpg);
     background-size: 100% 100%;
 }
 
-#tabs #tabs-2 {
-    background-image: url(../images/clients/customer-2.jpg);
+#tabs .tab:nth-of-type(3) {
+    background-image: url(../images/features/2.jpg);
     background-size: 100% 100%;
 }
 
-#tabs #tabs-3 {
-    background-image: url(../images/clients/customer-3.jpg);
+#tabs .tab:nth-of-type(4) {
+    background-image: url(../images/features/3.jpg);
+    background-size: 100% 100%;
+}
+
+#tabs .tab:nth-of-type(5) {
+    background-image: url(../images/features/3.jpg);
+    background-size: 100% 100%;
+}
+
+#tabs .tab:nth-of-type(6) {
+    background-image: url(../images/features/3.jpg);
+    background-size: 100% 100%;
+}
+
+#tabs .tab:nth-of-type(7) {
+    background-image: url(../images/features/3.jpg);
     background-size: 100% 100%;
 }
 
