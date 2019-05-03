@@ -61,15 +61,8 @@ h3{text-transform: capitalize;}
 .text-nice-blue{color:#09c;}
 .text-nice-black{color:#333;}
 .full-height{height:100%;}
-*
-{
-/*
-    transition-delay: 0s;
-    transition-duration: 0.2s;
-    transition-property: all;
-    transition-timing-function: cubic-bezier(0.42,0,1,1);
-*/
-}
+
+
 
 
 /* Start Header Section */
@@ -702,15 +695,25 @@ h3{text-transform: capitalize;}
     transition-duration: 0.2s;
     transition-property: all;
     transition-timing-function: cubic-bezier(0.42,0,1,1);
+    font-size:1.0vw;
+    margin-right: 0.73vw;
 }
-.team .content .parent a:hover
+.team .content .parent a.fb:hover
 {
-    color:#009688;
+    color:#4267b2;
+}
+.team .content .parent a.in
+{
+    position:relative;
+    top:2px;
+}
+.team .content .parent a.in:hover
+{
+    color:#0077b5
 }
 .team .content .parent i
 {
-    font-size:1.03vw;
-    margin-right: 0.73vw;
+    
 }
 
 @media(max-width:992px)
