@@ -15,25 +15,27 @@ $(function() {
         $tab = $(this).attr("targetTab");
         $("#"+$tab).fadeIn(300);
     });
+
     const featuresSectionTop = $("#core-section").offset().top;
-    const featuresSectionBottom = 1830;
-//    const featuresSectionBottom =  featuresSectionTop + $("#tabs").height() -100;
-    console.log(featuresSectionBottom);
-    const browserTopOffset = $("#browser").offset().top;
-    const diff = browserTopOffset - featuresSectionTop;
-//    const endPos = featuresSectionBottom - $(window).height();
-//    console.log(featuresSectionBottom)
+    const diff = $("#browser").offset().top - featuresSectionTop;
+    let featuresSectionBottom = $("#core-section").offset().top + $("#core-section").height() - diff;
+    const tabsBottom = $("#tabs").offset().top + $("#tabs").height() ;
+    featuresSectionBottom += featuresSectionBottom - tabsBottom;
+    const browserHeight = 400;
     $(window).scroll(function(){
-        var curScrollVal = $(window).scrollTop();
-        console.log(curScrollVal+" "+featuresSectionBottom)
-        if( curScrollVal >= featuresSectionTop && curScrollVal < featuresSectionBottom){
+        let curScrollVal = $(window).scrollTop();
+        let curScrollValDown = curScrollVal + $(window).height();
+        let browserBottom = $("#browser").offset().top + browserHeight;
+        if( browserBottom < tabsBottom && curScrollVal >= featuresSectionTop  && curScrollValDown < featuresSectionBottom){
             $('#browser').css({'position': 'fixed', 'top': diff+'px', 'bottom':'auto'});
-        }
-        else if( curScrollVal > featuresSectionBottom ){
-            $('#browser').css({'position': 'absolute', 'top': 'auto', 'bottom':0});
         }
         else if( curScrollVal < featuresSectionTop ){
             $('#browser').css({'position': 'absolute', 'top': 0, 'bottom': 'auto'});
+            console.log("up");
+        }
+        else{
+            $('#browser').css({'position': 'absolute', 'top': 'auto', 'bottom':0});
+            console.log("down");   
         }
 
     });
