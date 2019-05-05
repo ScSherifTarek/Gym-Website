@@ -35,7 +35,7 @@ $(function() {
             console.log("up");
         }
         else{
-            $('#browser').css({'position': 'absolute', 'top': 'auto', 'bottom':0});
+            $('#browser').css({'position': 'absolute', 'top': 'auto', 'bottom':'100px'});
             console.log("down");   
         }
 
