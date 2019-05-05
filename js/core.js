@@ -1,8 +1,9 @@
 $(function() {
     var btns = $('#accordion li a');
     var wrapper = $('#accordion li');
+    $('div[id^="tabs-"]').fadeOut(0);
+    $('#tabs-1').fadeIn(0);
     $(btns).not('.active').parent().find('.addon').removeClass('fadein').fadeOut(300);
-    
     $(btns).on('click', function() {
         if($(this).hasClass('active'))
             return;
