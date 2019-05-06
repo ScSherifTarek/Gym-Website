@@ -55,7 +55,7 @@ a:hover
 h2{text-transform: uppercase;}
 h3{text-transform: capitalize;}
 .contact span.what{text-transform: capitalize;}
-.text-nice-light-blue{color:#009688;}
+.text-nice-light-blue{color:#d68029;}
 .text-nice-red{color:#f44336;}
 .text-nice-green{color:#4caf50;}
 .text-nice-blue{color:#09c;}
@@ -143,7 +143,7 @@ h3{text-transform: capitalize;}
 }
 .header .content .not-image a.get-app
 {
-    background-color:#009688;
+    background-color:#d68029;
     border-color: transparent;
     transition-delay: 0s;
     transition-duration: 0.2s;
@@ -321,7 +321,7 @@ h3{text-transform: capitalize;}
 {
     position: relative;
     width:100%;
-    background-color:#009688;
+    background-color:#d68029;
     overflow: hidden;
 }
 
@@ -407,7 +407,7 @@ h3{text-transform: capitalize;}
 .cross-section .container .not-image::after
 {
 /*    content:""; */
-    background-color: #009688/*009688*/;
+    background-color: #d68029/*009688*/;
     display: block;
     width:800px;
     height:150px;
@@ -420,7 +420,7 @@ h3{text-transform: capitalize;}
 .cross-section .container .not-image::before
 {
 /*    content:""; */
-    background-color: #009688;
+    background-color: #d68029;
     display: block;
     width:370px;
     height:3000px;
@@ -554,7 +554,7 @@ h3{text-transform: capitalize;}
 
 .client ol li.active
 {
-	background-color: #009688;
+	background-color: #d68029;
     border-color: rgba(0, 82, 73, 1);
 }
 .client p
@@ -967,7 +967,7 @@ h3{text-transform: capitalize;}
 }
 .new-contact .phone
 {
-        color:#009688;
+        color:#d68029;
 }
 
 @media(max-width:992px)
@@ -1027,7 +1027,7 @@ h3{text-transform: capitalize;}
 {
     font-size: 16px;
     background-color:#fff;
-    color:#009688;
+    color:#d68029;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
     padding:15px 10px 10px 20px;
     border-bottom-left-radius: 50%;
@@ -1043,7 +1043,7 @@ h3{text-transform: capitalize;}
 .lang a:hover
 {
     color:#fff;
-    background-color:#009688;
+    background-color:#d68029;
 }
 
 @media(max-width:992px)
@@ -1056,7 +1056,7 @@ h3{text-transform: capitalize;}
     {
         font-size: 3vw;
         background-color:#fff;
-        color:#009688;
+        color:#d68029;
         box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
         padding:1vw 1.5vw 2vw 2.5vw;
         border-bottom-left-radius: 50%;
