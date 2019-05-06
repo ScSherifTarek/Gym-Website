@@ -152,14 +152,14 @@ h3{text-transform: capitalize;}
 }
 .header .content .not-image a.get-app:hover
 {
-    background-color:rgba(0, 128, 115, 1);
+    background-color:rgb(159, 95, 30);
     border-color:transparent;
 }
 .header .content .not-image a.get-app:focus,
 .header .content .not-image a.get-app:active
 {
-    background-color: rgba(0, 82, 73, 1);;
-    border-color: rgba(0, 31, 27, 1);
+    background-color: rgb(126, 75, 23);
+    border-color: rgb(44, 24, 5);
 }
 /* Start Responsive for header */
 @media(max-width:992px)
@@ -496,14 +496,14 @@ h3{text-transform: capitalize;}
 }
 .big-btn:hover
 {
-    background-color: rgba(0, 82, 73, 1);
-    border-color: rgba(0, 82, 73, 1);
+    background-color: rgb(126, 75, 23);
+    border-color: rgb(126, 75, 23);
 }
 .big-btn:focus,
 .big-btn:active
 {
-    background-color: rgba(0, 82, 73, 1);
-    border-color: rgba(0, 31, 27, 1);
+    background-color: rgb(126, 75, 23);
+    border-color: rgb(44, 24, 5);
 }
 
 @media(max-width:992px)
@@ -555,7 +555,7 @@ h3{text-transform: capitalize;}
 .client ol li.active
 {
 	background-color: #d68029;
-    border-color: rgba(0, 82, 73, 1);
+    border-color: rgb(126, 75, 23);
 }
 .client p
 {
