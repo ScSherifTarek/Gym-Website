@@ -69,10 +69,11 @@ h3{text-transform: capitalize;}
 .header
 {
     width:100%;
-    background-color: #333;
+    background-color: #fff;
     background-image: url(../images/en/home-back.jpg);
     background-size:contain;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .black-back
