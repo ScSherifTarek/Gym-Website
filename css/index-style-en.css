@@ -13,7 +13,9 @@ a
     transition-property: all;
     transition-timing-function: cubic-bezier(0.42,0,1,1);
 }
-a:hover
+
+a:hover,
+a:focus
 {
     color: inherit;
     cursor: pointer;
@@ -968,7 +970,15 @@ h3{text-transform: capitalize;}
 }
 .new-contact .phone
 {
-        color:#d68029;
+    color:#d68029;
+}
+.new-contact .whatsapp
+{
+    color:#1ba127;
+}
+.new-contact .email
+{
+    color:#D14237;
 }
 
 @media(max-width:992px)

@@ -32,11 +32,9 @@ $(function() {
         }
         else if( curScrollVal < featuresSectionTop ){
             $('#browser').css({'position': 'absolute', 'top': 0, 'bottom': 'auto'});
-            console.log("up");
         }
         else{
             $('#browser').css({'position': 'absolute', 'top': 'auto', 'bottom':'100px'});
-            console.log("down");   
         }
 
     });
