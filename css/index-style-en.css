@@ -865,10 +865,6 @@ h3{text-transform: capitalize;}
 	padding:0 1.1vw 0 0;
 }
 
-.footer .container .ways li .gplus
-{
-	padding-left:0.37vw;
-}
 @media(max-width:380px)
 {
 	.footer .ways span>span
