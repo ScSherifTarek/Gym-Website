@@ -294,3 +294,12 @@ ul
         padding-left:0;
     }   
 }
+
+
+/* Video Model override */
+
+.modal-video-close-btn
+{
+    right:auto;
+    left:-35px;
+}
