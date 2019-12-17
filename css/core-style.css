@@ -198,31 +198,31 @@
     position: fixed;
 }
 #tabs .tab:nth-of-type(2) {
-    background-image: url(../images/features/1.jpg);
+    background-image: url(../images/features/en/1.jpg);
 }
 
 #tabs .tab:nth-of-type(3) {
-    background-image: url(../images/features/2.jpg);
+    background-image: url(../images/features/en/2.jpg);
 }
 
 #tabs .tab:nth-of-type(4) {
-    background-image: url(../images/features/3.jpg);
+    background-image: url(../images/features/en/3.jpg);
 }
 
 #tabs .tab:nth-of-type(5) {
-    background-image: url(../images/features/4.jpg);
+    background-image: url(../images/features/en/4.jpg);
 }
 
 #tabs .tab:nth-of-type(6) {
-    background-image: url(../images/features/5.jpg);
+    background-image: url(../images/features/en/5.jpg);
 }
 
 #tabs .tab:nth-of-type(7) {
-    background-image: url(../images/features/6.jpg);
+    background-image: url(../images/features/en/6.jpg);
 }
 
 #tabs .tab:nth-of-type(8) {
-    background-image: url(../images/features/7.jpg);
+    background-image: url(../images/features/en/7.jpg);
 }
 
 @media(max-width:1000px)
