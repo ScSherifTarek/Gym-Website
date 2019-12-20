@@ -23,3 +23,7 @@ $('a[href*="#"]')
       }
     }
   });
+
+$(window).ready(function() {
+    $(".js-modal-btn").modalVideo({channel:'youtube'});
+});
