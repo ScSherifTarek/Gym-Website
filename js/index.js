@@ -25,5 +25,18 @@ $('a[href*="#"]')
   });
 
 $(window).ready(function() {
+    // Video effect
     $(".js-modal-btn").modalVideo({channel:'youtube'});
+
+    // Clients Carousel
+    $(function(){
+      $('#clients #clients-carousel').slick({
+        dots: true,
+        // arrows:true,
+        infinite: true,
+        autoplay: true,
+        autoplaySpeed: 15000,
+        lazyLoad: 'ondemand'
+      });
+    });
 });
